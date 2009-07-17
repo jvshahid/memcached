@@ -28,7 +28,7 @@ Collaboration diagram for conn:</div>
 <div class="dynsection">
 <p><center><img src="structconn__coll__graph.png" border="0" usemap="#conn__coll__map" alt="Collaboration graph"></center>
 <map name="conn__coll__map">
-<area shape="rect" id="node2" href="unionprotocol__binary__request__header.html" title="Definition of the header structure for a request packet." alt="" coords="5,224,243,253"><area shape="rect" id="node4" href="struct__stritem.html" title="Structure for storing items within memcached." alt="" coords="267,224,347,253"><area shape="rect" id="node7" href="struct_l_i_b_e_v_e_n_t___t_h_r_e_a_d.html" title="LIBEVENT_THREAD" alt="" coords="441,224,593,253"><area shape="rect" id="node9" href="structthread__stats.html" title="Stats stored per&#45;thread." alt="" coords="347,117,456,147"><area shape="rect" id="node11" href="structslab__stats.html" title="Stats stored per slab (and per thread)." alt="" coords="356,5,447,35"><area shape="rect" id="node13" href="structcache__t.html" title="Definition of the structure to keep track of the internal details of the cache allocator..." alt="" coords="480,117,555,147"><area shape="rect" id="node15" href="structconn__queue.html" title="conn_queue" alt="" coords="581,117,683,147"><area shape="rect" id="node17" href="structconn__queue__item.html" title="conn_queue_item" alt="" coords="561,5,703,35"></map>
+<area shape="rect" id="node2" href="unionprotocol__binary__request__header.html" title="Definition of the header structure for a request packet." alt="" coords="5,234,235,265"><area shape="rect" id="node4" href="struct__stritem.html" title="Structure for storing items within memcached." alt="" coords="259,234,331,265"><area shape="rect" id="node7" href="struct_l_i_b_e_v_e_n_t___t_h_r_e_a_d.html" title="LIBEVENT_THREAD" alt="" coords="421,234,563,265"><area shape="rect" id="node9" href="structthread__stats.html" title="Stats stored per&#45;thread." alt="" coords="332,123,433,154"><area shape="rect" id="node11" href="structslab__stats.html" title="Stats stored per slab (and per thread)." alt="" coords="340,6,425,37"><area shape="rect" id="node13" href="structcache__t.html" title="Definition of the structure to keep track of the internal details of the cache allocator..." alt="" coords="457,123,527,154"><area shape="rect" id="node15" href="structconn__queue.html" title="conn_queue" alt="" coords="553,123,652,154"><area shape="rect" id="node17" href="structconn__queue__item.html" title="conn_queue_item" alt="" coords="536,6,669,37"></map>
 <center><font size="2">[<a href="graph_legend.html">legend</a>]</font></center></div>
 
 <p>
@@ -117,6 +117,8 @@ Collaboration diagram for conn:</div>
 <tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="structconn.html#7b1984060d5b4b2aea26905718cb42c8">suffixleft</a></td></tr>
 
 <tr><td class="memItemLeft" nowrap align="right" valign="top">enum <a class="el" href="memcached_8h.html#dd2ec924c0f221790d7235ffb2e615cd">protocol</a>&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="structconn.html#ef35eff4856a49adaee2299596a00988">protocol</a></td></tr>
+
+<tr><td class="memItemLeft" nowrap align="right" valign="top">enum <a class="el" href="memcached_8h.html#b2a402bae66e9d81d0928284b707a47c">network_transport</a>&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="structconn.html#6f4ac5a34c5244fd44226fbb2ca62f9f">transport</a></td></tr>
 
 <tr><td class="memItemLeft" nowrap align="right" valign="top">int&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="structconn.html#40f2af0bb917ca015ad366811e950ee0">request_id</a></td></tr>
 
@@ -875,6 +877,21 @@ but if we parsed some already, this is where we stopped
 
 </div>
 </div><p>
+<a class="anchor" name="6f4ac5a34c5244fd44226fbb2ca62f9f"></a><!-- doxytag: member="conn::transport" ref="6f4ac5a34c5244fd44226fbb2ca62f9f" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="memcached_8h.html#b2a402bae66e9d81d0928284b707a47c">network_transport</a> <a class="el" href="structconn.html#6f4ac5a34c5244fd44226fbb2ca62f9f">conn::transport</a>          </td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>
+
+</div>
+</div><p>
 <a class="anchor" name="b7bcc3e0bf2d962d2f7aad53c6b523b7"></a><!-- doxytag: member="conn::wbuf" ref="b7bcc3e0bf2d962d2f7aad53c6b523b7" args="" -->
 <div class="memitem">
 <div class="memproto">
@@ -987,7 +1004,7 @@ which state to go into after finishing current write
 <hr>The documentation for this struct was generated from the following file:<ul>
 <li><a class="el" href="memcached_8h-source.html">memcached.h</a></ul>
 </div>
-<hr size="1"><address style="text-align: right;"><small>Generated on Fri Apr 17 16:28:30 2009 for memcached by&nbsp;
+<hr size="1"><address style="text-align: right;"><small>Generated on Fri Jul 17 16:30:43 2009 for memcached by&nbsp;
 <a href="http://www.doxygen.org/index.html">
 <img src="doxygen.png" alt="doxygen" align="middle" border="0"></a> 1.5.8 </small></address>
 </body>

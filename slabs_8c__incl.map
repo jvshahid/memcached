@@ -1,10 +1,10 @@
-<area shape="rect" id="node3" href="$memcached_8h.html" title="The main memcached header holding commonly used data structures and function prototypes..." alt="" coords="839,83,956,112">
-<area shape="rect" id="node23" href="$protocol__binary_8h.html" title="protocol_binary.h" alt="" coords="1387,160,1520,189">
-<area shape="rect" id="node26" href="$cache_8h.html" title="cache.h" alt="" coords="1595,160,1669,189">
-<area shape="rect" id="node29" href="$stats_8h.html" title="stats.h" alt="" coords="1693,160,1763,189">
-<area shape="rect" id="node31" href="$slabs_8h.html" title="slabs.h" alt="" coords="307,160,373,189">
-<area shape="rect" id="node33" href="$assoc_8h.html" title="assoc.h" alt="" coords="397,160,469,189">
-<area shape="rect" id="node35" href="$items_8h.html" title="items.h" alt="" coords="493,160,565,189">
-<area shape="rect" id="node37" href="$trace_8h.html" title="trace.h" alt="" coords="589,160,659,189">
-<area shape="rect" id="node39" href="$hash_8h.html" title="hash.h" alt="" coords="683,160,747,189">
-<area shape="rect" id="node41" href="$util_8h.html" title="util.h" alt="" coords="771,160,824,189">
+<area shape="rect" id="node3" href="$memcached_8h.html" title="The main memcached header holding commonly used data structures and function prototypes..." alt="" coords="831,86,940,117">
+<area shape="rect" id="node23" href="$protocol__binary_8h.html" title="protocol_binary.h" alt="" coords="1365,166,1499,197">
+<area shape="rect" id="node26" href="$cache_8h.html" title="cache.h" alt="" coords="1573,166,1643,197">
+<area shape="rect" id="node29" href="$stats_8h.html" title="stats.h" alt="" coords="1667,166,1731,197">
+<area shape="rect" id="node31" href="$slabs_8h.html" title="slabs.h" alt="" coords="307,166,373,197">
+<area shape="rect" id="node33" href="$assoc_8h.html" title="assoc.h" alt="" coords="397,166,467,197">
+<area shape="rect" id="node35" href="$items_8h.html" title="items.h" alt="" coords="491,166,560,197">
+<area shape="rect" id="node37" href="$trace_8h.html" title="trace.h" alt="" coords="584,166,648,197">
+<area shape="rect" id="node39" href="$hash_8h.html" title="hash.h" alt="" coords="672,166,736,197">
+<area shape="rect" id="node41" href="$util_8h.html" title="util.h" alt="" coords="760,166,813,197">

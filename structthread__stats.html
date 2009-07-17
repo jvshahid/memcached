@@ -31,7 +31,7 @@ Collaboration diagram for thread_stats:</div>
 <div class="dynsection">
 <p><center><img src="structthread__stats__coll__graph.png" border="0" usemap="#thread__stats__coll__map" alt="Collaboration graph"></center>
 <map name="thread__stats__coll__map">
-<area shape="rect" id="node2" href="structslab__stats.html" title="Stats stored per slab (and per thread)." alt="" coords="15,5,105,35"></map>
+<area shape="rect" id="node2" href="structslab__stats.html" title="Stats stored per slab (and per thread)." alt="" coords="13,6,99,37"></map>
 <center><font size="2">[<a href="graph_legend.html">legend</a>]</font></center></div>
 
 <p>
@@ -57,6 +57,8 @@ Collaboration diagram for thread_stats:</div>
 <tr><td class="memItemLeft" nowrap align="right" valign="top">uint64_t&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="structthread__stats.html#fff437fd1fcac940ffd2fa44d3182838">bytes_written</a></td></tr>
 
 <tr><td class="memItemLeft" nowrap align="right" valign="top">uint64_t&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="structthread__stats.html#8f4915ca2892f21641a126951660b625">flush_cmds</a></td></tr>
+
+<tr><td class="memItemLeft" nowrap align="right" valign="top">uint64_t&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="structthread__stats.html#77b7ea5473695cd12f7c41d1a7e812b8">conn_yields</a></td></tr>
 
 <tr><td class="memItemLeft" nowrap align="right" valign="top">struct <a class="el" href="structslab__stats.html">slab_stats</a>&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="structthread__stats.html#efc242998efe6318a32510565acbcb01">slab_stats</a> [MAX_NUMBER_OF_SLAB_CLASSES]</td></tr>
 
@@ -99,6 +101,21 @@ Stats stored per-thread. <hr><h2>Member Data Documentation</h2>
       <table class="memname">
         <tr>
           <td class="memname">uint64_t <a class="el" href="structthread__stats.html#daaed26081651c8236b1cc5b4f4748ec">thread_stats::cas_misses</a>          </td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>
+
+</div>
+</div><p>
+<a class="anchor" name="77b7ea5473695cd12f7c41d1a7e812b8"></a><!-- doxytag: member="thread_stats::conn_yields" ref="77b7ea5473695cd12f7c41d1a7e812b8" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint64_t <a class="el" href="structthread__stats.html#77b7ea5473695cd12f7c41d1a7e812b8">thread_stats::conn_yields</a>          </td>
         </tr>
       </table>
 </div>
@@ -231,7 +248,7 @@ Stats stored per-thread. <hr><h2>Member Data Documentation</h2>
 <hr>The documentation for this struct was generated from the following file:<ul>
 <li><a class="el" href="memcached_8h-source.html">memcached.h</a></ul>
 </div>
-<hr size="1"><address style="text-align: right;"><small>Generated on Fri Apr 17 16:28:32 2009 for memcached by&nbsp;
+<hr size="1"><address style="text-align: right;"><small>Generated on Fri Jul 17 16:30:44 2009 for memcached by&nbsp;
 <a href="http://www.doxygen.org/index.html">
 <img src="doxygen.png" alt="doxygen" align="middle" border="0"></a> 1.5.8 </small></address>
 </body>
