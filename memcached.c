@@ -4276,7 +4276,6 @@ int main (int argc, char **argv) {
     main_base = event_init();
 
     /* initialize other stuff */
-    item_init();
     stats_init();
     assoc_init();
     conn_init();
