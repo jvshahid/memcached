@@ -1,6 +1,0 @@
-<area shape="rect" id="node3" href="$items_8h.html#5b94ba56566ec70ae2a1906e1b6b14ae" title="do_item_alloc" alt="" coords="145,58,255,89">
-<area shape="rect" id="node5" href="$memcached_8h.html#38299cba09286a1060f3f8abfec408cc" title="do_add_delta" alt="" coords="308,5,415,35">
-<area shape="rect" id="node9" href="$memcached_8h.html#c2e150055051a36e29e8215f5bc35fca" title="do_store_item" alt="" coords="305,58,417,89">
-<area shape="rect" id="node13" href="$thread_8c.html#d69cc14d059b72c07e1f0b550b1922c6" title="item_alloc" alt="" coords="319,111,404,142">
-<area shape="rect" id="node7" href="$thread_8c.html#439d6a005b0cc1a47f8ca3ceb3b85a35" title="add_delta" alt="" coords="471,5,553,35">
-<area shape="rect" id="node11" href="$thread_8c.html#c97ce2cadaeb4fe6524c0df01828c232" title="store_item" alt="" coords="468,58,556,89">

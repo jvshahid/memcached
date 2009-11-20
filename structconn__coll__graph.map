@@ -1,8 +1,0 @@
-<area shape="rect" id="node2" href="$unionprotocol__binary__request__header.html" title="Definition of the header structure for a request packet." alt="" coords="5,234,235,265">
-<area shape="rect" id="node4" href="$struct__stritem.html" title="Structure for storing items within memcached." alt="" coords="259,234,331,265">
-<area shape="rect" id="node7" href="$struct_l_i_b_e_v_e_n_t___t_h_r_e_a_d.html" title="LIBEVENT_THREAD" alt="" coords="421,234,563,265">
-<area shape="rect" id="node9" href="$structthread__stats.html" title="Stats stored per&#45;thread." alt="" coords="332,123,433,154">
-<area shape="rect" id="node11" href="$structslab__stats.html" title="Stats stored per slab (and per thread)." alt="" coords="340,6,425,37">
-<area shape="rect" id="node13" href="$structcache__t.html" title="Definition of the structure to keep track of the internal details of the cache allocator..." alt="" coords="457,123,527,154">
-<area shape="rect" id="node15" href="$structconn__queue.html" title="conn_queue" alt="" coords="553,123,652,154">
-<area shape="rect" id="node17" href="$structconn__queue__item.html" title="conn_queue_item" alt="" coords="536,6,669,37">
