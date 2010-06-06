@@ -144,7 +144,13 @@ enum conn_states {
     conn_swallow,    /**< swallowing unnecessary bytes w/o storing */
     conn_closing,    /**< closing this connection */
     conn_mwrite,     /**< writing out many items sequentially */
-    conn_max_state   /**< Max state value (used for assertion) */
+#ifdef USE_REPLICATION
+    conn_repconnect, /**< replication connecting to master */
+    conn_rep_listen, /**< replication listening socket */
+    conn_pipe_recv,  /**< replication command pipe recv */
+    conn_pipe_send,  /**< replication command pipe send */
+#endif /* USE_REPLICATION */
+    conn_max_state,  /**< Max state value (used for assertion) */
 };
 
 enum bin_substates {
@@ -240,7 +246,9 @@ struct stats {
     uint64_t      get_hits;
     uint64_t      get_misses;
     uint64_t      evictions;
+#if 0
     time_t        started;          /* when the process was started */
+#endif
     bool          accepting_conns;  /* whether we are currently accepting */
     uint64_t      listen_disabled_num;
 };
@@ -274,6 +282,11 @@ struct settings {
     int backlog;
     int item_size_max;        /* Maximum item size, and upper end for slabs */
     bool sasl;              /* SASL on/off */
+#ifdef USE_REPLICATION
+    struct in_addr rep_addr;    /* replication addr */
+    int rep_port;               /* replication port */
+    int rep_qmax;               /* replication QITEM max */
+#endif /*USE_REPLICATION*/
 };
 
 extern struct stats stats;
@@ -285,6 +298,10 @@ extern struct settings settings;
 
 /* temp */
 #define ITEM_SLABBED 4
+
+#ifdef USE_REPLICATION
+#define ITEM_REPDATA 128
+#endif /*USE_REPLICATION*/
 
 /**
  * Structure for storing items within memcached.
@@ -438,6 +455,10 @@ extern int daemonize(int nochdir, int noclose);
 #include "trace.h"
 #include "hash.h"
 #include "util.h"
+
+#ifdef USE_REPLICATION
+#include "replication.h"
+#endif /* USE_REPLICATION */
 
 /*
  * Functions such as the libevent-related calls that need to do cross-thread
